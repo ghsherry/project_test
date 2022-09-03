@@ -1,6 +1,12 @@
 #ifndef HEADER1_H_INCLUDED
 #define HEADER1_H_INCLUDED
-int sum_values (int a , int b);
-int multiply_values(int a , int b);
+typedef enum
+{
+    ERROR_OK,
+    ERROR_NOK
+}Error_state;
+
+Error_state sum_values (int a , int b, int * value);
+Error_state multiply_values(int a , int b, int * value);
 
 #endif // HEADER1_H_INCLUDED

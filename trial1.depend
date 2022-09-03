@@ -1,3 +1,11 @@
 # depslib dependency file v1.0
-1662231632 source:d:\trial1\source.c
+1662235171 source:d:\trial1\source.c
+	"header1.h"
+
+1662235208 source:d:\trial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header1.h"
+
+1662234783 d:\trial1\header1.h
 
